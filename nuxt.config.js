@@ -52,8 +52,8 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  serverMiddleware: [{path:'/api/getPages', handler: '~/server-middleware/getPages.js'},
-    {path:'/api/getPageContent', handler: '~/server-middleware/getPageContent.js'}
+  serverMiddleware: [{path:'/api/getPages', handler: '~/api/getPages.js'},
+    {path:'/api/getPageContent', handler: '~/api/getPageContent.js'}
 
   ]
 }
