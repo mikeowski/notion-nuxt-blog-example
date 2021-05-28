@@ -6,7 +6,6 @@
     "use": "@nuxtjs/vercel-builder",
     "config": {
       "serverFiles": ["server-middleware/**"],
-      "generateStaticRoutes": true
     }
   }
 ]
