@@ -18,12 +18,14 @@ export default {
   },
   methods:{
     async getPages(){
-        await this.$axios.$get('/api/getPages',{
+        await fetch('/api/getPages',{
         method:'GET'
       }).then(res => {
-       this.pages = res
-          console.log(this.pages)
-      })
+       return res.json()
+
+      }).then(res =>{
+        this.pages = res
+        })
     }
   }
 
