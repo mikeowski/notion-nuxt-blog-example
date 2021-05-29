@@ -3,7 +3,7 @@
 
 This is a simple Nuxt blog using Notion sdk
 
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/MahykBurak/notion-nuxt-blog-example/blob/master/LICENSE)
 
 
 
