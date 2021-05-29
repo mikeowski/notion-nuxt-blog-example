@@ -30,13 +30,15 @@ export default {
     async getBlocks(){
       let d = this.$route.fullPath
       const url = `/api/getPageContent?pageId=${d.split('').slice(1).join('')}`
-      await this.$axios.$get(url,{
+      await fetch(url,{
         method:'GET',
       }).then(res =>{
+        return res.json()
+      }
+      ).then(res => {
         this.data = res
         this.isLoading = false
-      }
-      )
+      })
     },
   getContent(block){
       const {type} = block
