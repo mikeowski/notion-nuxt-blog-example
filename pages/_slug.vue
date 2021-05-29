@@ -1,6 +1,6 @@
 <template>
   <div class='max-w-screen-md mx-auto pt-10 prose'>
-    <h1 v-show='isLoading'>LOADİNG</h1>
+    <h1 v-show='isLoading' class='text-center'>LOADİNG</h1>
     <template v-for='el in data'>
       <component :is='setElement(el.type)'>
           {{getContent(el)}}

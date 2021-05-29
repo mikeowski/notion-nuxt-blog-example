@@ -37,6 +37,7 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    'nuxt-svg-loader',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
