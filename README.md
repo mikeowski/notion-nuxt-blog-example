@@ -1,4 +1,19 @@
-# notion-nuxt-blog-example
+
+# Notion API example using by Nuxt.js
+
+This is a simple Nuxt blog using Notion sdk
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+
+
+## [Live Demo](https://notion-nuxt.herokuapp.com)
+
+
+- [Notion API / SDK](https://github.com/makenotion/notion-sdk-js)
+- [Used Notion DATABASE](https://www.notion.so/8569f704fd49488994045bead59acae3?v=fb9c3177d75541eb984521b72321be21)
+- [For Documentation](https://notion-nuxt.herokuapp.com/c37bc612-ff67-4cfa-b680-a42352f4823a)
+
 
 ## Build Setup
 
@@ -16,5 +31,12 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+## Environment Variables
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+To run this project, you will need to add the following environment variables to your .env file
+
+`NUXT_ENV_NOTION_KEY`
+
+`NUXT_ENV_NOTION_DB_ID`
+
+  
